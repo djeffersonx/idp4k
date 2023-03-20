@@ -9,7 +9,7 @@ This is a set projects to easily reach idempotent processes in kotlin.
 
 ### idp4k-orchestrator
 
-This project defines the core of the idp4k project provinding the `LockManager` interface and creating the `IdempotenceManager` implementation that has the responsibility to manage the process of idempotence using the `LockManager` to decide treatment to provide to the actual execution.
+This project defines the core orchestrator of the idp4k project providing the `LockManager` interface and creating the `IdempotenceOrchestrator` implementation that has the responsibility to manage the idempotent process using the `LockManager`. Calling the right treatment for each process execution instance, based on the configured idempotence key.
 
 ### idp4k-spring
 
