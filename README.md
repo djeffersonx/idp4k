@@ -33,4 +33,4 @@ Provides a Spring auto-configuration.
 #### idp4k-rs-postgresql
 
 
-XXXX
+XXXXX
